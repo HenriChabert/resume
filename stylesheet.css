@@ -16,16 +16,20 @@
 body {
     font-family: Avenir;
     background-color: white;
-    margin: 10px 20px;
+    margin: 20px;
     
     display: flex;
-    font-size: 0.75em;
+    font-size: 0.78em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     --main-black: black;
     --main-blue: #2f5496;
     --main-grey: grey;
+}
+
+h3 {
+  font-size: 1.23em;
 }
 
 b {
@@ -193,6 +197,17 @@ li:last-child {
     flex-wrap: wrap;
     justify-content: center;
     height: 100%;
+}
+
+.cols-4 section {
+    flex: 0 1 25%;
+    max-width: 25%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+
 }
 
 .secondary-title {
