@@ -220,18 +220,31 @@ li:last-child {
     margin-bottom: 1px;
 }
 
-.cols-3-content {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.cols-1-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.cols-3-content li {
-    flex-basis: calc(50% - 10px);
-    box-sizing: border-box;
-    padding: 5px;
+.cols-2-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cols-2-list li {
+  flex-basis: calc(50% - 10px);
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
 }
