@@ -14,10 +14,10 @@
 }
 
 body {
-    font-family: Avenir;
+    font-family: "Avenir", sans-serif;
     background-color: white;
     margin: 20px;
-    
+
     display: flex;
     font-size: 0.78em;
     flex-direction: column;
@@ -33,7 +33,7 @@ h3 {
 }
 
 b {
-    font-family: Avenir-Roman;
+    font-family: "Avenir-Roman", sans-serif;
     font-weight: bolder;
 }
 
